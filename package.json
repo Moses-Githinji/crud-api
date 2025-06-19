@@ -1,0 +1,20 @@
+{
+  "name": "crud-reports-api",
+  "version": "1.0.0",
+  "description": "This app was inspired by a technical question I got while interviewing for a software developer position at Emergency Medicine Kenya Foundation where I suprisingly struggled to answer it correctly. We shall be using the MVC*Models*Views*Controllers architecture with in-memory storage for persistence and shall finally test out the api using Postman",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+  "start": "node server.js",
+  "dev": "nodemon server.js"
+},
+  "author": "Moses Ndirangu Githinji",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "uuid": "^11.1.0"
+  }
+}
